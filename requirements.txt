@@ -1,0 +1,11 @@
+packaging
+librosa
+soundfile
+pyyaml
+argparse
+tensorboard
+pesq
+einops
+torch==2.2.2
+torchaudio==2.2.2
+pystoi
