@@ -1,5 +1,5 @@
 # xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement
-This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2405.06573) (insert correct arxiv page) paper.
+This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146).
 
 ## Requirement
     * Python >= 3.9
@@ -77,13 +77,13 @@ The evaluation metrics is calculated via: [CMGAN](https://github.com/ruizhecao96
 ## References and Acknowledgements
 We would like to express our gratitude to the authors of [SEMamba](https://github.com/RoyChao19477/SEMamba), [MP-SENet](https://github.com/yxlu-0102/MP-SENet/tree/main), [CMGAN](https://github.com/ruizhecao96/CMGAN), [HiFi-GAN](https://github.com/jik876/hifi-gan/blob/master/train.py), and [NSPP](https://github.com/YangAi520/NSPP).
 
-## Citation: (UPDATE!!!)
+## Citation:
 If you find the paper useful in your research, please cite:  
 ```
-@article{chao2024investigation,
-  title={An Investigation of Incorporating Mamba for Speech Enhancement},
-  author={Chao, Rong and Cheng, Wen-Huang and La Quatra, Moreno and Siniscalchi, Sabato Marco and Yang, Chao-Han Huck and Fu, Szu-Wei and Tsao, Yu},
-  journal={arXiv preprint arXiv:2405.06573},
-  year={2024}
+@article{kuehne2025xlstmsenet
+  title={xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement},
+  author={Nikolai Lund Kühne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan},
+  journal={arXiv preprint arXiv:2501.06146},
+  year={2025}
 }
 ```
