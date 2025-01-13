@@ -1,5 +1,5 @@
 # xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement
-This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146).
+This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146) paper.
 
 ## Requirement
     * Python >= 3.9
