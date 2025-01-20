@@ -74,8 +74,6 @@ NCCL_P2P_DISABLE=1 python xLSTM-SENet/inference.py --input_folder=vctk16/noisy_t
 ## Evaluation
 The evaluation metrics is calculated via: [CMGAN](https://github.com/ruizhecao96/CMGAN/blob/main/src/tools/compute_metrics.py)  
 
-## References and Acknowledgements
-We would like to express our gratitude to the authors of [SEMamba](https://github.com/RoyChao19477/SEMamba), [MP-SENet](https://github.com/yxlu-0102/MP-SENet/tree/main), [CMGAN](https://github.com/ruizhecao96/CMGAN), [HiFi-GAN](https://github.com/jik876/hifi-gan/blob/master/train.py), and [NSPP](https://github.com/YangAi520/NSPP).
 
 ## Citation:
 If you find the paper useful in your research, please cite:  
@@ -85,5 +83,26 @@ If you find the paper useful in your research, please cite:
   author={Nikolai Lund Kühne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan},
   journal={arXiv preprint arXiv:2501.06146},
   year={2025}
+}
+```
+
+## References and Acknowledgements
+We would like to express our gratitude to the authors of [SEMamba](https://github.com/RoyChao19477/SEMamba), [MP-SENet](https://github.com/yxlu-0102/MP-SENet/tree/main), [CMGAN](https://github.com/ruizhecao96/CMGAN), [HiFi-GAN](https://github.com/jik876/hifi-gan/blob/master/train.py), and [NSPP](https://github.com/YangAi520/NSPP).
+
+Additionally, we would like to thank the authors of the original xLSTM and Vision-LSTM papers for their work and codebase. So, please consider citing them as well:
+```
+@article{xlstm,
+  title={xLSTM: Extended Long Short-Term Memory},
+  author={Beck, Maximilian and P{\"o}ppel, Korbinian and Spanring, Markus and Auer, Andreas and Prudnikova, Oleksandra and Kopp, Michael and Klambauer, G{\"u}nter and Brandstetter, Johannes and Hochreiter, Sepp},
+  journal={arXiv preprint arXiv:2405.04517},
+  year={2024}
+}
+
+
+@article{alkin2024visionlstm,
+  title={{Vision-LSTM}: {xLSTM} as Generic Vision Backbone},
+  author={Benedikt Alkin and Maximilian Beck and Korbinian P{\"o}ppel and Sepp Hochreiter and Johannes Brandstetter},
+  journal={arXiv preprint arXiv:2406.04303},
+  year={2024}
 }
 ```
