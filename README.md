@@ -1,6 +1,18 @@
 # xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement
 This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146) paper.
 
+---
+
+### Update: Model weights released
+
+[xLSTM-SENet2 Checkpoint](checkpoints/xLSTM_checkpoint.pth) and [xLSTM-SENet2 Recipe](checkpoints/xLSTM_config.yaml) is now available.
+
+Results on VoiceBank+DEMAND:
+| PESQ  | CSIG | CBAK  | COVL | SSNR | STOI | ESTOI | SI-SDR |
+| ------------- | ------------- |------------- | ------------- |------------- | ------------- |------------- | ------------- |
+| 3.521  | 4.770  |3.966  | 4.273  |10.411  | 0.960  |0.891 | 19.629  |
+
+
 ## Requirement
     * Python >= 3.9
     * CUDA >= 12.0
@@ -8,7 +20,7 @@ This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channe
 
 ## Model
 
-![SEMamba advanced model](imgs/xLSTM-SENet.png)
+![xLSTM-SENet advanced model](imgs/xLSTM-SENet.png)
 
 ## Speech Enhancement Results
 ### Enhancement performance compared to existing methods on the Voicebank+Demand dataset:
@@ -18,9 +30,9 @@ This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channe
 ![Comparison](imgs/comparison.png)
 In the LSTM (layer) model, we replaced the mLSTM LAYERS in xLSTM-SENet with LSTM. In the LSTM (block) model, we replaced the mLSTM BLOCKS in xLSTM-SENet with LSTM.
 
-
-### Ablation study:
-![Ablations](imgs/ablations.png)
+### xLSTM-SENet2:
+![xLSTM-SENet2](imgs/xLSTM-SENet2.png)
+In xLSTM-SENet2, we use 8 layers (instead of 4) and an expansion factor of 2 (instead of 4)
 
 
 ## Installation
