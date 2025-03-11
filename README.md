@@ -61,6 +61,12 @@ pip install .
 Note: Installing from source (provided `mamba_install`) can help prevent package issues and ensure compatibility between different dependencies. It is recommended to follow these steps carefully to avoid potential conflicts.
 
 ## Training the Model
+
+### Step 0: Downsample VoiceBank+Demand Dataset
+Using the provided script for [downsampling](https://github.com/NikolaiKyhne/xLSTM-SENet/blob/main/downsampling.py) to downsample the VoiceBank+Demand dataset from 48kHz to 16kHz.
+
+You may need to update the data paths in `downsampling.py`
+
 ### Step 1: Prepare Dataset JSON
 
 Create the dataset JSON file using the script `sh make_dataset.sh`. You may need to modify `make_dataset.sh` and `data/make_dataset_json.py`.
