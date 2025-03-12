@@ -69,7 +69,7 @@ You may need to update the data paths in `downsampling.py`
 
 ### Step 1: Prepare Dataset JSON
 
-Create the dataset JSON file using the script `sh make_dataset.sh`. You may need to modify `make_dataset.sh` and `data/make_dataset_json.py`.
+Create the dataset JSON file using the script `data/make_dataset_json.py`. You may need to modify the data paths in `data/make_dataset_json.py` to match the downsampled dataset. 
 
 Alternatively, you can directly modify the data paths in `data/train_clean.json`, `data/train_noisy.json`, etc.
 
