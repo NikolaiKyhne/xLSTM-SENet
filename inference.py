@@ -62,8 +62,8 @@ def inference(args, device):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_folder', default='vctk16/noisy_testset_wav_16k')
-    parser.add_argument('--output_folder', default='xLSTM-SENet/recipes/xLSTM-SENet/xLSTM-SENet_4N.yaml')
-    parser.add_argument('--config', default='results')
+    parser.add_argument('--output_folder', default='results')
+    parser.add_argument('--config', default='xLSTM-SENet/recipes/xLSTM-SENet/xLSTM-SENet_4N.yaml')
     parser.add_argument('--checkpoint_file', required=True)
     args = parser.parse_args()
 
