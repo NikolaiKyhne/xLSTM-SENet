@@ -2,8 +2,9 @@
 This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146) paper.
 
 ---
+### Update: results on DNS 2020 released in our new [MambAttention](https://arxiv.org/abs/2507.00966v1) paper.
 
-### Update: Model weights released
+### Model weights released
 
 [xLSTM-SENet2 Checkpoint](checkpoints/xLSTM_checkpoint.pth) and [xLSTM-SENet2 Recipe](checkpoints/xLSTM_config.yaml) is now available.
 
