@@ -99,7 +99,7 @@ If you find the paper useful in your research, please cite:
 ```
 @article{kuehne2025xlstmsenet
   title={xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement},
-  author={Nikolai Lund Kühne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan},
+  author={Nikolai Lund K{\"u}hne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan},
   journal={arXiv preprint arXiv:2501.06146},
   year={2025}
 }
