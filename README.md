@@ -97,12 +97,14 @@ The evaluation metrics is calculated via: [CMGAN](https://github.com/ruizhecao96
 ## Citation:
 If you find the paper useful in your research, please cite:  
 ```
-@article{kuehne2025xlstmsenet
+@article{kuehne2025xlstmsenet,
   title={xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement},
-  author={Nikolai Lund K{\"u}hne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan},
-  journal={arXiv preprint arXiv:2501.06146},
-  year={2025}
+  author={Nikolai Lund K{\"u}hne and Jan {\O}stergaard and Jesper Jensen and Zheng-Hua Tan},
+  journal={ArXiv},
+  year={2025},
+  volume={abs/2501.06146},
 }
+
 ```
 
 ## References and Acknowledgements
