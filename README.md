@@ -1,5 +1,5 @@
-# xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement (Accepted to INTERSPEECH 2025)
-This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://arxiv.org/abs/2501.06146) paper.
+# xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement (Proc. Interspeech 2025)
+This is the official implementation of the [xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement](https://www.isca-archive.org/interspeech_2025/kuhne25_interspeech.html) paper.
 
 ---
 ### Update: results on DNS 2020 released in our new [MambAttention](https://arxiv.org/abs/2507.00966v1) paper.
@@ -99,7 +99,7 @@ If you find the paper useful in your research, please cite:
 ```
 @inproceedings{kuhne25_interspeech,
   title     = {{xLSTM-SENet: xLSTM for Single-Channel Speech Enhancement}},
-  author    = {{Nikolai Lund Kühne and Jan Østergaard and Jesper Jensen and Zheng-Hua Tan}},
+  author    = {{Nikolai Lund K{\"u}hne and Jan {\O}stergaard and Jesper Jensen and Zheng-Hua Tan}},
   year      = {{2025}},
   booktitle = {{Interspeech 2025}},
   pages     = {{5148--5152}},
